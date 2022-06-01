@@ -25,7 +25,7 @@ public class Main {
         System.out.println(addDouble(1.5,2.7,3.3));
         System.out.println(employeeList.contains(new Employee("Mary",22)));
         System.out.println(employeeList.indexOf(new Employee("Mary",22)));
-        employeeList.remove(2);
+        employeeList.remove(1);
 
         employeeList.forEach(employee -> {System.out.println(employee);});
 
