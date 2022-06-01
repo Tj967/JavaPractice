@@ -9,6 +9,6 @@ public class Employee {
     }
 
     public String toString(){
-        return "Name: "+this.name+"\nID: "+this.id;
+        return "Name: "+this.name+" ID: "+this.id;
     }
 }
