@@ -1,10 +1,12 @@
+package Test;
+
 import java.util.ArrayList;
 import java.util.List;
 import Test.Employee;
 
 
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         List<Employee> employeelist = new ArrayList<>();
         employeelist.add(new Employee("Joe", 123));
